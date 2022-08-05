@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Source+Code+Pro:wght@300;600&display=swap');
+
+.header {
+    color: white;
+    margin-top: 50px;
+    padding-top: 0px;
+    font-size: 60px;
+    font-weight: bolder;
+    width: auto;
+    text-align: left;
+}
+.header h1 {
+    font-family: 'Comfortaa', cursive;
+}
+
+.description {
+    font-family: 'Source Code Pro', monospace;
+}
+.description h2 {
+    color: rgb(234, 234, 234);
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.description p {
+    color: rgb(161, 161, 161);
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.description h3 {
+    color: white;
+    font-size: 27px;
+    padding: 10px;
+}

@@ -1,0 +1,362 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+
+.back {
+	background-color: #000033;
+}
+
+.content-wrap {
+	display: flex;
+	margin-top: 10px;
+	min-height: 600px;
+	padding-top: 80;
+
+	main {
+		flex: 1 1 0%;
+		padding: 0px 16px;
+
+		.hidden {
+			display: none;
+		}
+
+		.view {
+			display: block;
+		}
+
+		.main-head {
+			display: flex;
+			justify-content: flex-end;
+
+			.search-box {
+				display: flex;
+				justify-content: flex-end;
+				flex: 1 1 0%;
+
+				input {
+					appearance: none;
+					background: none;
+					outline: none;
+					border: none;
+					display: block;
+					width: 100%;
+					max-width: 400px;
+					padding: 16px;
+					border-radius: 10px;
+					background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+					transition: 0.4s;
+
+					::placeholder {
+						color: rgb(0, 0, 0);
+
+					}
+
+					&:focus,
+					&:valid {
+						background: rgb(230, 227, 255);
+						color: rgb(0, 0, 0);
+						font-weight: 20;
+
+					}
+				}
+			}
+		}
+
+		.anime-list {
+			display: flex;
+			flex-wrap: wrap;
+			margin-top: 32px;
+			margin: 32px -8px 0px;
+
+			.anime-card {
+				flex: 1 1 33.333%;
+				max-width: 33.333%;
+				padding: 16px 8px;
+
+				a {
+					text-decoration: none;
+					h3 {
+						color: #fff;
+					}
+					h4 {
+						font-weight: lighter;
+						color: #fff;
+					}
+				}
+
+				figure {
+					display: block;
+					margin-bottom: 16px;
+
+					img {
+						display: block;
+						width: 100%;
+						height: 350px;
+						object-fit: cover;
+						border-radius: 16px;
+						box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15);
+
+						transition: 0.4s;
+					}
+				}
+
+				h3 {
+					color: #313131;
+				}
+
+				h4 {
+					color: #313131;
+				}
+
+				&:hover {
+					figure {
+						img {
+							box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+							transform: scale(1.05);
+						}
+					}
+				}
+			}
+		}
+	}
+
+	aside {
+
+		min-width: 250px;
+		padding-right: 16px;
+		justify-content: center;
+
+		nav {
+
+			padding-right: 16px;
+
+			.side-menu {
+				margin-bottom: 16px;
+				padding: 10px;
+
+				border-radius: 5px;
+				margin-left: 16px;
+				background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+			}
+
+			h3 {
+				color: #000033;
+				font-size: 24px;
+				text-align: center;
+			}
+
+			a {
+				display: block;
+				padding: 8px 16px;
+				text-align: left;
+				color: #fff;
+				font-size: 16px;
+				margin-bottom: 16px;
+				margin-left: 16px;
+				border-radius: 999px;
+				text-decoration: none;
+				transition: all 0.4s ease;
+
+				&:hover {
+					background: linear-gradient(90deg, #3F2B96 0%, #5a89ff 100%);
+					color: #fff;
+				}
+			}
+		}
+	}
+
+
+}
+
+
+@media screen and (max-width: 960px) {
+
+
+	.content-wrap {
+		display: flex;
+		flex-direction: column;
+
+		.back {
+			background-color: #000033;
+		}
+
+
+		main {
+			padding: 0px 16px;
+
+			.main-head {
+				display: flex;
+				justify-content: flex-end;
+
+				.search-box {
+					display: flex;
+					justify-content: center;
+					flex: 1 1 0%;
+
+					input {
+						appearance: none;
+						background: none;
+						outline: none;
+						border: none;
+						display: block;
+						width: 100%;
+						max-width: 400px;
+						padding: 16px;
+						border-radius: 10px;
+						background-image: linear-gradient(109.6deg, rgba(156, 252, 248, 1) 11.2%, rgba(110, 123, 251, 1) 91.1%);
+						transition: 0.4s;
+
+						::placeholder {
+							color: #fff;
+
+						}
+
+						&:focus,
+						&:valid {
+							background: rgb(230, 227, 255);
+							color: rgb(0, 0, 0);
+							font-weight: 20;
+						}
+					}
+				}
+			}
+
+			.anime-list {
+				display: flex;
+				flex-wrap: wrap;
+				margin-top: 32px;
+				margin: 32px -8px 0px;
+				color: white;
+
+				.anime-card {
+					flex: 1 1 33.333%;
+					max-width: 33.333%;
+					padding: 16px 8px;
+
+					a {
+						text-decoration: none;
+						h3 {
+							color: #fff;
+						}
+						h4 {
+							font-weight: lighter;
+							color: #fff;
+						}
+					}
+
+					figure {
+						display: block;
+						margin-bottom: 16px;
+
+						img {
+							display: block;
+							width: 100%;
+							height: 350px;
+							object-fit: cover;
+							border-radius: 16px;
+							
+
+							transition: 0.4s;
+						}
+					}
+
+					
+
+					
+
+					&:hover {
+						figure {
+							img {
+								box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+								transform: scale(1.05);
+							}
+						}
+					}
+				}
+			}
+
+			.hidden {
+				display: none;
+			}
+		}
+
+
+
+
+
+		aside {
+			max-width: 100%;
+			padding-right: 16px;
+			margin: auto;
+
+			min-height: 60vh;
+			display: flex;
+
+
+			nav {
+				display: flex;
+				flex-direction: column;
+				max-height: 70px;
+
+
+				.side-menu {
+					margin-bottom: 16px;
+					padding: 10px;
+					border-radius: 30px;
+					margin-left: 0;
+					background-color: #3F2B96;
+					cursor: pointer;
+				}
+
+				h3 {
+
+					color: #fff;
+					font-size: 24px;
+					text-align: center;
+				}
+
+				a {
+					padding: 8px 16px;
+					text-align: left;
+					color: #888;
+					font-size: 16px;
+					margin-bottom: 16px;
+					margin-left: 16px;
+					display: none;
+					background-color: #EEE;
+					border-radius: 999px;
+					text-decoration: none;
+
+					&:hover {
+						background: linear-gradient(90deg, #3F2B96 0%, #5a89ff 100%);
+						color: #fff;
+					}
+				}
+
+				.side-content1 {
+					&:hover a {
+						display: block;
+					}
+				}
+
+				.side-content3 {
+					&:hover a {
+						display: block;
+					}
+				}
+
+				.side-content2 {
+					&:hover a {
+						display: block;
+					}
+				}
+
+			}
+		}
+
+	}
+}
