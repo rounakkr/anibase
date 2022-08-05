@@ -55,7 +55,7 @@ function App() {
 	return (
 		<Router>
 			<Routes>
-				<Route path='/' element={
+				<Route exact path='/' element={
 					<div className='back'>
 
 						<Navbar />

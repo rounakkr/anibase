@@ -7,6 +7,7 @@
     background: rgb(214, 214, 214);
     margin: 0 20px;
     font-size: small;
+    width: auto;
 }
 
 .row {
@@ -102,111 +103,13 @@ footer li {
     margin: 1rem 0;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) and (min-width:400px) {
 
-    .container {
-        margin-top: 200px;
-        height: 200px;
-        justify-content: center;
-        align-items: center;
-        font-family: 'Montserrat', sans-serif;
-        background: white;
-        margin: 0 20px;
-        font-size: small;
-        margin-bottom: 20px;
-        padding-bottom: 10px;
-    }
+    
+}
 
-    .row {
-        padding-top: 20px;
-    }
+@media screen and (max-width: 400px) {
 
-    .column2 {
-        display: flex;
-    }
+    
 
-    .column {
-        display: flex;
-        margin: 0;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .columnItem {
-        padding: 0 20vh;
-        text-align: left;
-    }
-
-    .columnItem h2::before {
-        content: '';
-        position: relative;
-        height: 5px;
-        background-color: #000000;
-        box-sizing: border-box;
-        width: 50px;
-    }
-
-    .columnItem ul li a {
-        transition: all 0.3s ease;
-    }
-
-    .columnItem ul li a:hover {
-        padding-left: 8px;
-    }
-
-    .columnItem ul {
-        text-align: left;
-    }
-
-    .columnItem .social-icons a {
-        display: inline-block;
-        margin: auto;
-        padding: 0 4px;
-    }
-
-    .fab {
-        display: inline-block;
-        height: 40px;
-        width: 40px;
-        background-color: rgba(26, 30, 105, 0.2);
-        margin: 0 10px 10px 0;
-        margin-top: 10px;
-        text-align: center;
-        line-height: 40px;
-        border-radius: 50%;
-        color: #000033;
-        transition: all 0.3s ease;
-    }
-
-    .fab:hover {
-        background-color: #000033;
-        color: #fff;
-    }
-
-    .copyright h4 {
-        margin-top: 0;
-        text-align: center;
-        color: #000033;
-        font-family: 'Montserrat', sans-serif;
-        padding-bottom: 10px;
-    }
-
-    footer h2 {
-        color: #000033;
-        cursor: pointer;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: #000033;
-    }
-
-    footer li {
-        text-decoration: none;
-        color: #000033;
-        list-style: none;
-        font-weight: lighter;
-        cursor: pointer;
-        margin: 1rem 0;
-    }
 }

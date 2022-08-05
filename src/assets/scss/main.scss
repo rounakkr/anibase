@@ -173,7 +173,7 @@
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 960px) and (min-width: 400px) {
 
 
 	.content-wrap {
@@ -359,4 +359,19 @@
 		}
 
 	}
+}
+
+@media screen and (max-width: 400px) {
+
+    .content-wrap {
+		display: flex;
+		flex-direction: column;
+		
+
+		.back {
+			background-color: #000033;
+			width: 100%;
+		}
+	}
+
 }
