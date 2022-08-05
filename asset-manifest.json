@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/github.io/anibase/static/css/main.368f249a.css",
+    "main.js": "/github.io/anibase/static/js/main.4c4da9d6.js",
+    "index.html": "/github.io/anibase/index.html",
+    "main.368f249a.css.map": "/github.io/anibase/static/css/main.368f249a.css.map",
+    "main.4c4da9d6.js.map": "/github.io/anibase/static/js/main.4c4da9d6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.368f249a.css",
+    "static/js/main.4c4da9d6.js"
+  ]
+}
