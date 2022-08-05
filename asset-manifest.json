@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/github.io/anibase/static/css/main.46b5fba6.css",
-    "main.js": "/github.io/anibase/static/js/main.414af5cb.js",
-    "index.html": "/github.io/anibase/index.html",
-    "main.46b5fba6.css.map": "/github.io/anibase/static/css/main.46b5fba6.css.map",
-    "main.414af5cb.js.map": "/github.io/anibase/static/js/main.414af5cb.js.map"
+    "main.css": "/static/css/main.46b5fba6.css",
+    "main.js": "/static/js/main.7e681c6e.js",
+    "index.html": "/index.html",
+    "main.46b5fba6.css.map": "/static/css/main.46b5fba6.css.map",
+    "main.7e681c6e.js.map": "/static/js/main.7e681c6e.js.map"
   },
   "entrypoints": [
     "static/css/main.46b5fba6.css",
-    "static/js/main.414af5cb.js"
+    "static/js/main.7e681c6e.js"
   ]
 }
